@@ -1,0 +1,35 @@
+:root {
+  --kc-bg: #f9fafb;
+  --kc-primary: #9d75ef;
+  --kc-primary-soft: #9d75ef;
+  --kc-accent-yellow: #ffe76a;
+  --kc-accent-coral: #f06568;
+  --kc-accent-teal: #7eDEE5;
+
+  --kc-text-main: #1f2933;
+  --kc-text-muted: #6b7280;
+  --kc-border-subtle: #e5e7eb;
+
+  --kc-radius-lg: 18px;
+  --kc-radius-xl: 26px;
+
+  --kc-shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.14);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background: var(--kc-bg);
+  color: var(--kc-text-main);
+}
+
+button {
+  font-family: inherit;
+}

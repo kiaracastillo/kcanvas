@@ -1,0 +1,141 @@
+.toolbar {
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ 
+  padding: 0.7rem 1.2rem;
+  background: #ffffff;
+ 
+ 
+ border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+  z-index: 10;
+}
+
+.toolbar-group {
+ 
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.toolbar-group span {
+ 
+  font-size: 0.8rem;
+  color: var(--kc-text-muted);
+  font-weight: 400;
+}
+
+.toolbar input[type="color"] {
+
+  width: 28px;
+height: 28px;
+  padding: 0;
+
+  border-radius: 999px;
+border: 1px solid var(--kc-border-subtle);
+  background: transparent;
+  cursor: pointer;
+}
+
+.toolbar input[type="range"] {
+  
+  accent-color: var(--kc-primary-soft);
+}
+
+.toolbar-size-label {
+
+  font-size: 0.78rem;
+  color: var(--kc-text-muted);
+}
+
+/* tools btn */
+
+.tool-btn {
+
+  border-radius: 999px;
+  
+  border: 1px solid rgba(148, 163, 184, 0.6);
+ 
+  padding: 0.4rem 0.9rem;
+  background: #ffffff;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+ 
+  transition: background 0.12s ease, border-color 0.12s ease, transform 0.08s ease, box-shadow 0.12s ease;
+}
+
+.tool-btn:hover {
+  background: rgba(126, 222, 229, 0.12);
+  border-color: rgba(126, 222, 229, 0.8);
+}
+
+.tool-btn.active {
+  
+  background: linear-gradient(135deg, var(--kc-primary-soft), var(--kc-primary));
+  color: #ffffff;
+  border-color: transparent;
+}
+
+/*  */
+
+.tool-btn.danger {
+  border-color: transparent;
+  background: var(--kc-accent-coral);
+  color: #ffffff;
+}
+
+.tool-btn.danger:hover {
+  background: #e03131;
+}
+
+.tool-btn.primary {
+  border-color: transparent;
+  background: var(--kc-accent-teal);
+  color: #fff;
+}
+
+  .tool-btn.primary:hover {
+  filter: brightness(0.95);
+}
+
+.toolbar-label {
+ 
+  font-size: 0.8rem;
+  color: var(--kc-text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.toolbar-icon-inline {
+  font-size: 0.9rem;
+}
+
+/* icon dentro de botones */
+.tool-btn-icon {
+  font-size: 0.9rem;
+}
+
+/* responsive */
+
+@media (max-width: 900px) {
+
+  .toolbar {
+    flex-wrap: wrap;
+    gap: 0.6rem 1rem;
+  }
+
+}
+
+@media (max-width: 640px) {
+  
+  .toolbar-group span {
+    display: none; 
+  }
+
+}

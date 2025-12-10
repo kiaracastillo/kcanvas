@@ -1,0 +1,62 @@
+npm run dev   React/Vite
+
+node server.cjs WebSocket
+
+node ai-server.mjs servidor de IA
+
+npm run electron:dev abre la app como escritorio si lo quieres mostrar también
+
+==================================================================================
+
+Sources from my proposal
+
+https://dev.to/nyxtom/realtime-collaborative-drawing-with-canvas-and-webrtc-2d01 
+https://getstream.io/resources/projects/webrtc/basics/signaling-server 
+https://antmedia.io/webrtc-signaling-servers-everything-you-need-to-know 
+https://www.digitalsamba.com/blog/what-is-webrtc-signalling 
+https://www.videosdk.live/blog/integrate-whiteboard-in-react-js 
+https://webrtc.org/getting-started/peer-connections 
+https://javascript.plainenglish.io/how-i-built-a-real-time-collaborative-whiteboard-in-javascript
+no-frameworks-no-backend-41a2bfa851d3 
+https://medium.com/%40ethanryan/making-a-simple-real-time-collaboration-app-with-react-n
+ode-express-and-yjs-a261597fdd44 
+https://platform.openai.com/docs/guides/images-vision?api-mode=responses 
+https://blog.logrocket.com/build-react-ai-image-generator-hugging-face-diffusers/ 
+https://huggingface.co/models?pipeline_tag=text-to-image&sort=downloads 
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images 
+
+====================================================================================
+
+Extras sources:
+
+=====================================================================================
+
+electron:
+
+https://iu.instructure.com/courses/2346932/pages/week-12-%7C-react-+electron-set-up?module_item_id=37154595
+
+======================================================================================
+
+openAi
+
+https://platform.openai.com/docs/api-reference/images/create
+
+======================================================================================
+
+WebSockets
+
+https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+
+=======================================================================================
+
+Canvas drawing
+
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+https://www.youtube.com/watch?v=zJ5lft8XJxs
+
+========================================================================================
+
+react vite 
+
+https://vite.dev/guide/
