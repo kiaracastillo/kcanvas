@@ -241,7 +241,7 @@ The design of KCanvas follows a minimalist approach to keep the interface clean,
 
 3. Start AI Server
 
-    Make sure .env contains:
+    Make sure to create a .env contains:
 
     ```
     OPENAI_API_KEY=your_key_here
